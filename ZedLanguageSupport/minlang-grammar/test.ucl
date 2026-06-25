@@ -1,0 +1,10 @@
+%import libmc/print.uchc // Test1!
+
+const String $Message = "Hello, World!" // Test4!
+
+loop fun Loop(): // Test2!
+    Print()<"Not ok">
+Loop
+
+fun Main():
+Main

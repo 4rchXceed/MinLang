@@ -1,0 +1,500 @@
+npm verbose cli /nix/store/2bslrww4ch7my47xxwabj1qy4acq4720-nodejs-slim-24.14.1/bin/node /nix/store/785jidgnryzj566s25s3rb262d4g5znb-nodejs-24.14.1/bin/npm
+npm info using npm@11.11.0
+npm info using node@v24.14.1
+npm verbose title npm install
+npm verbose argv "install" "--loglevel" "verbose"
+npm verbose logfile logs-max:10 dir:/home/archxceed/.npm/_logs/2026-06-22T11_18_18_521Z-
+npm verbose logfile /home/archxceed/.npm/_logs/2026-06-22T11_18_18_521Z-debug-0.log
+npm http cache https://registry.npmjs.org/node-addon-api 8ms (cache hit)
+npm http cache https://registry.npmjs.org/node-gyp-build 1ms (cache hit)
+npm http cache https://registry.npmjs.org/prebuildify 1ms (cache hit)
+npm http cache https://registry.npmjs.org/tree-sitter 2ms (cache hit)
+npm http cache https://registry.npmjs.org/tree-sitter-cli 2ms (cache hit)
+npm http cache https://registry.npmjs.org/minimist 6ms (cache hit)
+npm http cache https://registry.npmjs.org/mkdirp-classic 7ms (cache hit)
+npm http cache https://registry.npmjs.org/node-abi 8ms (cache hit)
+npm http cache https://registry.npmjs.org/npm-run-path 11ms (cache hit)
+npm http cache https://registry.npmjs.org/tar-fs 11ms (cache hit)
+npm http cache https://registry.npmjs.org/pump 13ms (cache hit)
+npm http cache https://registry.npmjs.org/semver 6ms (cache hit)
+npm http cache https://registry.npmjs.org/end-of-stream 7ms (cache hit)
+npm http cache https://registry.npmjs.org/chownr 7ms (cache hit)
+npm http cache https://registry.npmjs.org/path-key 8ms (cache hit)
+npm http cache https://registry.npmjs.org/tar-stream 9ms (cache hit)
+npm http cache https://registry.npmjs.org/once 11ms (cache hit)
+npm http cache https://registry.npmjs.org/wrappy 1ms (cache hit)
+npm http cache https://registry.npmjs.org/fs-constants 3ms (cache hit)
+npm http cache https://registry.npmjs.org/bl 4ms (cache hit)
+npm http cache https://registry.npmjs.org/inherits 7ms (cache hit)
+npm http cache https://registry.npmjs.org/readable-stream 7ms (cache hit)
+npm http cache https://registry.npmjs.org/string_decoder 2ms (cache hit)
+npm http cache https://registry.npmjs.org/buffer 4ms (cache hit)
+npm http cache https://registry.npmjs.org/util-deprecate 5ms (cache hit)
+npm http cache https://registry.npmjs.org/base64-js 1ms (cache hit)
+npm http cache https://registry.npmjs.org/ieee754 2ms (cache hit)
+npm http cache https://registry.npmjs.org/safe-buffer 1ms (cache hit)
+npm http cache safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 0ms (cache hit)
+npm http cache util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 0ms (cache hit)
+npm http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 0ms (cache hit)
+npm http cache ieee754@https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz 0ms (cache hit)
+npm http cache base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz 0ms (cache hit)
+npm http cache buffer@https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz 0ms (cache hit)
+npm http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 0ms (cache hit)
+npm http cache inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 0ms (cache hit)
+npm http cache tar-stream@https://registry.npmjs.org/tar-stream/-/tar-stream-2.2.0.tgz 1ms (cache hit)
+npm http cache bl@https://registry.npmjs.org/bl/-/bl-4.1.0.tgz 0ms (cache hit)
+npm http cache chownr@https://registry.npmjs.org/chownr/-/chownr-1.1.4.tgz 0ms (cache hit)
+npm http cache wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 0ms (cache hit)
+npm http cache once@https://registry.npmjs.org/once/-/once-1.4.0.tgz 0ms (cache hit)
+npm http cache path-key@https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz 0ms (cache hit)
+npm http cache semver@https://registry.npmjs.org/semver/-/semver-7.8.5.tgz 0ms (cache hit)
+npm http cache end-of-stream@https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.5.tgz 0ms (cache hit)
+npm http cache tar-fs@https://registry.npmjs.org/tar-fs/-/tar-fs-2.1.4.tgz 0ms (cache hit)
+npm http cache fs-constants@https://registry.npmjs.org/fs-constants/-/fs-constants-1.0.0.tgz 0ms (cache hit)
+npm http cache pump@https://registry.npmjs.org/pump/-/pump-3.0.4.tgz 0ms (cache hit)
+npm http cache npm-run-path@https://registry.npmjs.org/npm-run-path/-/npm-run-path-3.1.0.tgz 0ms (cache hit)
+npm http cache node-abi@https://registry.npmjs.org/node-abi/-/node-abi-3.92.0.tgz 0ms (cache hit)
+npm http cache minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz 0ms (cache hit)
+npm http cache mkdirp-classic@https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz 0ms (cache hit)
+npm http cache tree-sitter@https://registry.npmjs.org/tree-sitter/-/tree-sitter-0.25.0.tgz 0ms (cache hit)
+npm http cache tree-sitter-cli@https://registry.npmjs.org/tree-sitter-cli/-/tree-sitter-cli-0.26.9.tgz 0ms (cache hit)
+npm http cache prebuildify@https://registry.npmjs.org/prebuildify/-/prebuildify-6.0.1.tgz 0ms (cache hit)
+npm http cache node-gyp-build@https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.8.4.tgz 0ms (cache hit)
+npm http cache node-addon-api@https://registry.npmjs.org/node-addon-api/-/node-addon-api-8.8.0.tgz 0ms (cache hit)
+npm info run tree-sitter@0.25.0 install node_modules/tree-sitter node-gyp-build
+npm info run tree-sitter-cli@0.26.9 install node_modules/tree-sitter-cli node install.js
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 296ms
+npm info run tree-sitter-cli@0.26.9 install { code: 0, signal: null }
+npm info run tree-sitter@0.25.0 install { code: 1, signal: null }
+npm verbose stack Error: command failed
+npm verbose stack     at promiseSpawn (/nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:22:22)
+npm verbose stack     at spawnWithShell (/nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:124:10)
+npm verbose stack     at promiseSpawn (/nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/lib/index.js:12:12)
+npm verbose stack     at runScriptPkg (/nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/run-script-pkg.js:79:13)
+npm verbose stack     at runScript (/nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/run-script.js:9:12)
+npm verbose stack     at /nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/rebuild.js:327:17
+npm verbose stack     at run (/nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/promise-call-limit/dist/commonjs/index.js:67:22)
+npm verbose stack     at /nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/promise-call-limit/dist/commonjs/index.js:84:9
+npm verbose stack     at new Promise (<anonymous>)
+npm verbose stack     at callLimit (/nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/promise-call-limit/dist/commonjs/index.js:35:69)
+npm verbose pkgid tree-sitter@0.25.0
+npm error code 1
+npm error path /home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/tree-sitter
+npm error command failed
+npm error command sh -c node-gyp-build
+npm error make: Entering directory '/home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/tree-sitter/build'
+npm error   touch Release/obj.target/../node-addon-api/node_addon_api_except.stamp
+npm error   gcc -o Release/obj.target/tree_sitter/vendor/tree-sitter/lib/src/lib.o ../vendor/tree-sitter/lib/src/lib.c '-DNODE_GYP_MODULE_NAME=tree_sitter' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_GLIBCXX_USE_CXX11_ABI=1' '-D_FILE_OFFSET_BITS=64' '-D_LARGEFILE_SOURCE' '-D__STDC_FORMAT_MACROS' '-D_POSIX_C_SOURCE=200112L' '-D_DEFAULT_SOURCE' -I/home/archxceed/.cache/node-gyp/24.14.1/include/node -I/home/archxceed/.cache/node-gyp/24.14.1/src -I/home/archxceed/.cache/node-gyp/24.14.1/deps/openssl/config -I/home/archxceed/.cache/node-gyp/24.14.1/deps/openssl/openssl/include -I/home/archxceed/.cache/node-gyp/24.14.1/deps/uv/include -I/home/archxceed/.cache/node-gyp/24.14.1/deps/zlib -I/home/archxceed/.cache/node-gyp/24.14.1/deps/v8/include -I../vendor/tree-sitter/lib/src -I../vendor/tree-sitter/lib/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -std=c11 -m64 -O3 -fno-omit-frame-pointer  -MMD -MF ./Release/.deps/Release/obj.target/tree_sitter/vendor/tree-sitter/lib/src/lib.o.d.raw   -c
+npm error rm -f Release/obj.target/tree_sitter.a Release/obj.target/tree_sitter.a.ar-file-list; mkdir -p `dirname Release/obj.target/tree_sitter.a`
+npm error ar crs Release/obj.target/tree_sitter.a @Release/obj.target/tree_sitter.a.ar-file-list
+npm error   ln -f "Release/obj.target/tree_sitter.a" "Release/tree_sitter.a" 2>/dev/null || (rm -rf "Release/tree_sitter.a" && cp -af "Release/obj.target/tree_sitter.a" "Release/tree_sitter.a")
+npm error   g++ -o Release/obj.target/tree_sitter_runtime_binding/src/binding.o ../src/binding.cc '-DNODE_GYP_MODULE_NAME=tree_sitter_runtime_binding' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_GLIBCXX_USE_CXX11_ABI=1' '-D_FILE_OFFSET_BITS=64' '-D_LARGEFILE_SOURCE' '-D__STDC_FORMAT_MACROS' '-DNAPI_VERSION=10' '-DNAPI_CPP_EXCEPTIONS' '-DBUILDING_NODE_EXTENSION' -I/home/archxceed/.cache/node-gyp/24.14.1/include/node -I/home/archxceed/.cache/node-gyp/24.14.1/src -I/home/archxceed/.cache/node-gyp/24.14.1/deps/openssl/config -I/home/archxceed/.cache/node-gyp/24.14.1/deps/openssl/openssl/include -I/home/archxceed/.cache/node-gyp/24.14.1/deps/uv/include -I/home/archxceed/.cache/node-gyp/24.14.1/deps/zlib -I/home/archxceed/.cache/node-gyp/24.14.1/deps/v8/include -I../vendor/tree-sitter/lib/include -I../../node-addon-api  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -fno-rtti -fno-strict-aliasing -std=gnu++20 -std=c++17 -Wno-cast-function-type -MMD -MF ./Release/.deps/Release/obj.target/tree_sitter_runtime_binding/src/binding.o.d.raw   -c
+npm error make: Leaving directory '/home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/tree-sitter/build'
+npm error /home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/node-gyp-build/node-gyp-build.js:60
+npm error   throw new Error('No native build was found for ' + target + '\n    loaded from: ' + dir + '\n')
+npm error   ^
+npm error
+npm error Error: No native build was found for platform=linux arch=x64 runtime=node abi=137 uv=1 libc=glibc node=24.14.1
+npm error     loaded from: /home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/tree-sitter
+npm error
+npm error     at load.resolve.load.path (/home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/node-gyp-build/node-gyp-build.js:60:9)
+npm error     at load (/home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/node-gyp-build/node-gyp-build.js:22:30)
+npm error     at Object.<anonymous> (/home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/node-gyp-build/build-test.js:19:19)
+npm error     at Module._compile (node:internal/modules/cjs/loader:1812:14)
+npm error     at Object..js (node:internal/modules/cjs/loader:1943:10)
+npm error     at Module.load (node:internal/modules/cjs/loader:1533:32)
+npm error     at Module._load (node:internal/modules/cjs/loader:1335:12)
+npm error     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+npm error     at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+npm error     at node:internal/main/run_main_module:33:47
+npm error
+npm error Node.js v24.14.1
+npm error
+npm error gyp info it worked if it ends with ok
+npm error gyp verb cli [
+npm error gyp verb cli '/nix/store/2bslrww4ch7my47xxwabj1qy4acq4720-nodejs-slim-24.14.1/bin/node',
+npm error gyp verb cli '/nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js',
+npm error gyp verb cli 'rebuild'
+npm error gyp verb cli ]
+npm error gyp info using node-gyp@12.2.0
+npm error gyp info using node@24.14.1 | linux | x64
+npm error gyp verb clean removing "build" directory
+npm error gyp verb find Python --python was not set on the command line
+npm error gyp verb find Python Python is not set from environment variable PYTHON
+npm error gyp verb find Python checking if "python3" can be used
+npm error gyp verb find Python - executing "python3" to get executable path
+npm error (node:158276) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+npm error (Use `node --trace-deprecation ...` to show where the warning was created)
+npm error gyp verb find Python - executable path is "/nix/store/0r6k8xa2kgqyp3r4v2w7yrb80ma2iawm-python3-3.13.12/bin/python3"
+npm error gyp verb find Python - executing "/nix/store/0r6k8xa2kgqyp3r4v2w7yrb80ma2iawm-python3-3.13.12/bin/python3" to get version
+npm error gyp verb find Python - version is "3.13.12"
+npm error gyp info find Python using Python version 3.13.12 found at "/nix/store/0r6k8xa2kgqyp3r4v2w7yrb80ma2iawm-python3-3.13.12/bin/python3"
+npm error gyp verb get node dir no --target version specified, falling back to host node version: 24.14.1
+npm error gyp verb install input version string "24.14.1"
+npm error gyp verb install installing version: 24.14.1
+npm error gyp verb install --ensure was passed, so won't reinstall if already installed
+npm error gyp verb install version is already installed, need to check "installVersion"
+npm error gyp verb got "installVersion" 11
+npm error gyp verb needs "installVersion" 11
+npm error gyp verb install version is good
+npm error gyp verb get node dir target node version installed: 24.14.1
+npm error gyp verb build dir attempting to create "build" dir: /home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/tree-sitter/build
+npm error gyp verb build dir "build" dir needed to be created? Yes
+npm error gyp verb build/config.gypi creating config file
+npm error gyp verb build/config.gypi writing out config file: /home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/tree-sitter/build/config.gypi
+npm error gyp verb config.gypi checking for gypi file: /home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/tree-sitter/config.gypi
+npm error gyp verb common.gypi checking for gypi file: /home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/tree-sitter/common.gypi
+npm error gyp verb gyp gyp format was not specified; forcing "make"
+npm error gyp info spawn /nix/store/0r6k8xa2kgqyp3r4v2w7yrb80ma2iawm-python3-3.13.12/bin/python3
+npm error gyp info spawn args [
+npm error gyp info spawn args '/nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/node-gyp/gyp/gyp_main.py',
+npm error gyp info spawn args 'binding.gyp',
+npm error gyp info spawn args '-f',
+npm error gyp info spawn args 'make',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args '/home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/tree-sitter/build/config.gypi',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args '/nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/node-gyp/addon.gypi',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args '/home/archxceed/.cache/node-gyp/24.14.1/include/node/common.gypi',
+npm error gyp info spawn args '-Dlibrary=shared_library',
+npm error gyp info spawn args '-Dvisibility=default',
+npm error gyp info spawn args '-Dnode_root_dir=/home/archxceed/.cache/node-gyp/24.14.1',
+npm error gyp info spawn args '-Dnode_gyp_dir=/nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/node-gyp',
+npm error gyp info spawn args '-Dnode_lib_file=/home/archxceed/.cache/node-gyp/24.14.1/<(target_arch)/node.lib',
+npm error gyp info spawn args '-Dmodule_root_dir=/home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/tree-sitter',
+npm error gyp info spawn args '-Dnode_engine=v8',
+npm error gyp info spawn args '--depth=.',
+npm error gyp info spawn args '--no-parallel',
+npm error gyp info spawn args '--generator-output',
+npm error gyp info spawn args 'build',
+npm error gyp info spawn args '-Goutput_dir=.'
+npm error gyp info spawn args ]
+npm error gyp verb build type Release
+npm error gyp verb architecture x64
+npm error gyp verb node dev dir /home/archxceed/.cache/node-gyp/24.14.1
+npm error gyp verb python /nix/store/0r6k8xa2kgqyp3r4v2w7yrb80ma2iawm-python3-3.13.12/bin/python3
+npm error gyp verb `which` succeeded for `make` /nix/store/yvrwcs1a45rj8142n0l2w9q9s6akamjr-gnumake-4.4.1/bin/make
+npm error gyp verb bin symlinks created symlink to "/nix/store/0r6k8xa2kgqyp3r4v2w7yrb80ma2iawm-python3-3.13.12/bin/python3" in "/home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/tree-sitter/build/node_gyp_bins" and added to PATH
+npm error gyp info spawn make
+npm error gyp info spawn args [ 'V=1', 'BUILDTYPE=Release', '-C', 'build' ]
+npm error In file included from /home/archxceed/.cache/node-gyp/24.14.1/include/node/cppgc/common.h:8,
+npm error                  from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8.h:23,
+npm error                  from /home/archxceed/.cache/node-gyp/24.14.1/include/node/node_object_wrap.h:25,
+npm error                  from ../src/./language.h:7,
+npm error                  from ../src/binding.cc:3:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8config.h:13:2: error: #error "C++20 or later required."
+npm error    13 | #error "C++20 or later required."
+npm error       |  ^~~~~
+npm error In file included from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-array-buffer.h:12,
+npm error                  from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8.h:24:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-local-handle.h:280:5: warning: identifier ‘requires’ is a keyword in C++20 [-Wc++20-compat]
+npm error   280 |     requires std::is_base_of_v<T, S>
+npm error       |     ^~~~~~~~
+npm error In file included from /home/archxceed/.cache/node-gyp/24.14.1/include/node/cppgc/internal/conditional-stack-allocated.h:10,
+npm error                  from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-maybe.h:11,
+npm error                  from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-object.h:10,
+npm error                  from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-array-buffer.h:14:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/cppgc/macros.h:51:1: warning: identifier ‘concept’ is a keyword in C++20 [-Wc++20-compat]
+npm error    51 | concept IsStackAllocatedType =
+npm error       | ^~~~~~~
+npm error In file included from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-handle-base.h:8,
+npm error                  from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-local-handle.h:13:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1256:37: error: non-type template parameters of class type only available with ‘-std=c++20’ or ‘-std=gnu++20’
+npm error  1256 |   template <ExternalPointerTagRange tag_range>
+npm error       |                                     ^~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-local-handle.h:280:5: error: ‘requires’ does not name a type [-Wtemplate-body]
+npm error   280 |     requires std::is_base_of_v<T, S>
+npm error       |     ^~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-local-handle.h:280:5: note: ‘requires’ only available with ‘-std=c++20’ or ‘-fconcepts’
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-local-handle.h:645:5: error: ‘requires’ does not name a type [-Wtemplate-body]
+npm error   645 |     requires std::is_base_of_v<T, S>
+npm error       |     ^~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-local-handle.h:645:5: note: ‘requires’ only available with ‘-std=c++20’ or ‘-fconcepts’
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-local-handle.h:651:5: error: ‘requires’ does not name a type [-Wtemplate-body]
+npm error   651 |     requires std::is_base_of_v<T, S>
+npm error       |     ^~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-local-handle.h:651:5: note: ‘requires’ only available with ‘-std=c++20’ or ‘-fconcepts’
+npm error In file included from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-array-buffer.h:13:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-memory-span.h:45:28: error: ‘std::ranges’ has not been declared
+npm error    45 | inline constexpr bool std::ranges::enable_view<v8::MemorySpan<T>> = true;
+npm error       |                            ^~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-memory-span.h:45:47: error: expected initializer before ‘<’ token
+npm error    45 | inline constexpr bool std::ranges::enable_view<v8::MemorySpan<T>> = true;
+npm error       |                                               ^
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-memory-span.h:47:28: error: ‘std::ranges’ has not been declared
+npm error    47 | inline constexpr bool std::ranges::enable_borrowed_range<v8::MemorySpan<T>> =
+npm error       |                            ^~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-memory-span.h:47:57: error: expected initializer before ‘<’ token
+npm error    47 | inline constexpr bool std::ranges::enable_borrowed_range<v8::MemorySpan<T>> =
+npm error       |                                                         ^
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-memory-span.h:168:35: error: ‘contiguous_iterator_tag’ in namespace ‘std’ does not name a type; did you mean ‘output_iterator_tag’? [-Wtemplate-body]
+npm error   168 |     using iterator_concept = std::contiguous_iterator_tag;
+npm error       |                                   ^~~~~~~~~~~~~~~~~~~~~~~
+npm error       |                                   output_iterator_tag
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/cppgc/macros.h:51:1: error: ‘concept’ does not name a type; did you mean ‘const’?
+npm error    51 | concept IsStackAllocatedType =
+npm error       | ^~~~~~~
+npm error       | const
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/cppgc/macros.h:51:1: note: ‘concept’ only available with ‘-std=c++20’ or ‘-fconcepts’
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/cppgc/internal/conditional-stack-allocated.h:22:1: error: ‘concept’ does not name a type; did you mean ‘const’?
+npm error    22 | concept RequiresStackAllocated =
+npm error       | ^~~~~~~
+npm error       | const
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/cppgc/internal/conditional-stack-allocated.h:22:1: note: ‘concept’ only available with ‘-std=c++20’ or ‘-fconcepts’
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/cppgc/internal/conditional-stack-allocated.h:28:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+npm error    28 |   requires(RequiresStackAllocated<T>)
+npm error       |           ^
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/cppgc/internal/conditional-stack-allocated.h:35:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+npm error    35 |   requires(!RequiresStackAllocated<T>)
+npm error       |           ^
+npm error In file included from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-object.h:11:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:53:19: error: expected identifier [-Wtemplate-body]
+npm error    53 |     requires(std::is_base_of_v<T, S>)
+npm error       |                   ^~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:53:37: error: expected unqualified-id before ‘)’ token [-Wtemplate-body]
+npm error    53 |     requires(std::is_base_of_v<T, S>)
+npm error       |                                     ^
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8config.h:496:20: error: expected constructor, destructor, or type conversion before ‘inline’ [-Wtemplate-body]
+npm error   496 | # define V8_INLINE inline __attribute__((always_inline))
+npm error       |                    ^~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:54:3: note: in expansion of macro ‘V8_INLINE’
+npm error    54 |   V8_INLINE Eternal(Isolate* isolate, Local<S> handle) {
+npm error       |   ^~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:66:19: error: expected identifier [-Wtemplate-body]
+npm error    66 |     requires(std::is_base_of_v<T, S>)
+npm error       |                   ^~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:66:37: error: expected unqualified-id before ‘)’ token [-Wtemplate-body]
+npm error    66 |     requires(std::is_base_of_v<T, S>)
+npm error       |                                     ^
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:67:3: error: expected constructor, destructor, or type conversion before ‘void’ [-Wtemplate-body]
+npm error    67 |   void Set(Isolate* isolate, Local<S> handle) {
+npm error       |   ^~~~
+npm error In file included from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:10:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-weak-callback-info.h: In instantiation of ‘class v8::WeakCallbackInfo<void>’:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:75:47:   required from here
+npm error    75 |                         WeakCallbackInfo<void>::Callback weak_callback,
+npm error       |                                               ^~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-weak-callback-info.h:25:7: error: invalid use of incomplete type ‘class cppgc::internal::ConditionalStackAllocatedBase<void>’
+npm error    25 | class WeakCallbackInfo
+npm error       |       ^~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/cppgc/internal/conditional-stack-allocated.h:19:7: note: declaration of ‘class cppgc::internal::ConditionalStackAllocatedBase<void>’
+npm error    19 | class ConditionalStackAllocatedBase;
+npm error       |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:263:19: error: expected identifier [-Wtemplate-body]
+npm error   263 |     requires(std::is_base_of_v<T, S>)
+npm error       |                   ^~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:263:37: error: expected unqualified-id before ‘)’ token [-Wtemplate-body]
+npm error   263 |     requires(std::is_base_of_v<T, S>)
+npm error       |                                     ^
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8config.h:496:20: error: expected constructor, destructor, or type conversion before ‘inline’ [-Wtemplate-body]
+npm error   496 | # define V8_INLINE inline __attribute__((always_inline))
+npm error       |                    ^~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:264:3: note: in expansion of macro ‘V8_INLINE’
+npm error   264 |   V8_INLINE Persistent(Isolate* isolate, Local<S> that)
+npm error       |   ^~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:274:19: error: expected identifier [-Wtemplate-body]
+npm error   274 |     requires(std::is_base_of_v<T, S>)
+npm error       |                   ^~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:274:37: error: expected unqualified-id before ‘)’ token [-Wtemplate-body]
+npm error   274 |     requires(std::is_base_of_v<T, S>)
+npm error       |                                     ^
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8config.h:496:20: error: expected constructor, destructor, or type conversion before ‘inline’ [-Wtemplate-body]
+npm error   496 | # define V8_INLINE inline __attribute__((always_inline))
+npm error       |                    ^~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:275:3: note: in expansion of macro ‘V8_INLINE’
+npm error   275 |   V8_INLINE Persistent(Isolate* isolate, const Persistent<S, M2>& that)
+npm error       |   ^~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:362:19: error: expected identifier [-Wtemplate-body]
+npm error   362 |     requires(std::is_base_of_v<T, S>)
+npm error       |                   ^~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:362:37: error: expected unqualified-id before ‘)’ token [-Wtemplate-body]
+npm error   362 |     requires(std::is_base_of_v<T, S>)
+npm error       |                                     ^
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8config.h:496:20: error: expected constructor, destructor, or type conversion before ‘inline’ [-Wtemplate-body]
+npm error   496 | # define V8_INLINE inline __attribute__((always_inline))
+npm error       |                    ^~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:363:3: note: in expansion of macro ‘V8_INLINE’
+npm error   363 |   V8_INLINE Global(Isolate* isolate, Local<S> that)
+npm error       |   ^~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:373:19: error: expected identifier [-Wtemplate-body]
+npm error   373 |     requires(std::is_base_of_v<T, S>)
+npm error       |                   ^~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:373:37: error: expected unqualified-id before ‘)’ token [-Wtemplate-body]
+npm error   373 |     requires(std::is_base_of_v<T, S>)
+npm error       |                                     ^
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8config.h:496:20: error: expected constructor, destructor, or type conversion before ‘inline’ [-Wtemplate-body]
+npm error   496 | # define V8_INLINE inline __attribute__((always_inline))
+npm error       |                    ^~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:374:3: note: in expansion of macro ‘V8_INLINE’
+npm error   374 |   V8_INLINE Global(Isolate* isolate, const PersistentBase<S>& that)
+npm error       |   ^~~~~~~~~
+npm error In file included from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-object.h:12:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-primitive.h: In member function ‘v8::String::ExternalStringResource* v8::String::GetExternalStringResource() const’:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-primitive.h:998:80: error: no matching function for call to ‘v8::internal::Internals::ReadExternalPointerField<v8::internal::kExternalStringResourceTag>(v8::Isolate*&, A&, const int&) const’
+npm error   998 |     A value = I::ReadExternalPointerField<internal::kExternalStringResourceTag>(
+npm error       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+npm error   999 |         isolate, obj, I::kStringResourceOffset);
+npm error       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                 
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-primitive.h:998:80: note: there is 1 candidate
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1257:28: note: candidate 1: ‘template<<typeprefixerror>tag_range> static v8::internal::Address v8::internal::Internals::ReadExternalPointerField(v8::Isolate*, v8::internal::Address, int)’
+npm error  1257 |   V8_INLINE static Address ReadExternalPointerField(v8::Isolate* isolate,
+npm error       |                            ^~~~~~~~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1257:28: note: template argument deduction/substitution failed:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-primitive.h:998:80: note: invalid template non-type parameter
+npm error   998 |     A value = I::ReadExternalPointerField<internal::kExternalStringResourceTag>(
+npm error       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+npm error   999 |         isolate, obj, I::kStringResourceOffset);
+npm error       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                 
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-primitive.h: In member function ‘v8::String::ExternalStringResourceBase* v8::String::GetExternalStringResourceBase(v8::Isolate*, Encoding*) const’:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-primitive.h:1020:80: error: no matching function for call to ‘v8::internal::Internals::ReadExternalPointerField<v8::internal::kExternalStringResourceTag>(v8::Isolate*&, A&, const int&) const’
+npm error  1020 |     A value = I::ReadExternalPointerField<internal::kExternalStringResourceTag>(
+npm error       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+npm error  1021 |         isolate, obj, I::kStringResourceOffset);
+npm error       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                 
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-primitive.h:1020:80: note: there is 1 candidate
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1257:28: note: candidate 1: ‘template<<typeprefixerror>tag_range> static v8::internal::Address v8::internal::Internals::ReadExternalPointerField(v8::Isolate*, v8::internal::Address, int)’
+npm error  1257 |   V8_INLINE static Address ReadExternalPointerField(v8::Isolate* isolate,
+npm error       |                            ^~~~~~~~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1257:28: note: template argument deduction/substitution failed:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-primitive.h:1020:80: note: invalid template non-type parameter
+npm error  1020 |     A value = I::ReadExternalPointerField<internal::kExternalStringResourceTag>(
+npm error       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+npm error  1021 |         isolate, obj, I::kStringResourceOffset);
+npm error       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                 
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-primitive.h: In member function ‘v8::String::ExternalStringResourceBase* v8::String::GetExternalStringResourceBase(Encoding*) const’:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-primitive.h:1043:80: error: no matching function for call to ‘v8::internal::Internals::ReadExternalPointerField<v8::internal::kExternalStringResourceTag>(v8::Isolate*&, A&, const int&) const’
+npm error  1043 |     A value = I::ReadExternalPointerField<internal::kExternalStringResourceTag>(
+npm error       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+npm error  1044 |         isolate, obj, I::kStringResourceOffset);
+npm error       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                 
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-primitive.h:1043:80: note: there is 1 candidate
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1257:28: note: candidate 1: ‘template<<typeprefixerror>tag_range> static v8::internal::Address v8::internal::Internals::ReadExternalPointerField(v8::Isolate*, v8::internal::Address, int)’
+npm error  1257 |   V8_INLINE static Address ReadExternalPointerField(v8::Isolate* isolate,
+npm error       |                            ^~~~~~~~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1257:28: note: template argument deduction/substitution failed:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-primitive.h:1043:80: note: invalid template non-type parameter
+npm error  1043 |     A value = I::ReadExternalPointerField<internal::kExternalStringResourceTag>(
+npm error       |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+npm error  1044 |         isolate, obj, I::kStringResourceOffset);
+npm error       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                 
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-object.h: In member function ‘void* v8::Object::GetAlignedPointerFromInternalField(v8::Isolate*, int)’:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-object.h:896:75: error: no matching function for call to ‘v8::internal::Internals::ReadExternalPointerField<v8::internal::kEmbedderDataSlotPayloadTag>(v8::Isolate*&, A&, int&)’
+npm error   896 |         I::ReadExternalPointerField<internal::kEmbedderDataSlotPayloadTag>(
+npm error       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+npm error   897 |             isolate, obj, offset);
+npm error       |             ~~~~~~~~~~~~~~~~~~~~~                                          
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-object.h:896:75: note: there is 1 candidate
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1257:28: note: candidate 1: ‘template<<typeprefixerror>tag_range> static v8::internal::Address v8::internal::Internals::ReadExternalPointerField(v8::Isolate*, v8::internal::Address, int)’
+npm error  1257 |   V8_INLINE static Address ReadExternalPointerField(v8::Isolate* isolate,
+npm error       |                            ^~~~~~~~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1257:28: note: template argument deduction/substitution failed:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-object.h:896:75: note: invalid template non-type parameter
+npm error   896 |         I::ReadExternalPointerField<internal::kEmbedderDataSlotPayloadTag>(
+npm error       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+npm error   897 |             isolate, obj, offset);
+npm error       |             ~~~~~~~~~~~~~~~~~~~~~                                          
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-object.h: In member function ‘void* v8::Object::GetAlignedPointerFromInternalField(int)’:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-object.h:918:75: error: no matching function for call to ‘v8::internal::Internals::ReadExternalPointerField<v8::internal::kEmbedderDataSlotPayloadTag>(v8::Isolate*&, A&, int&)’
+npm error   918 |         I::ReadExternalPointerField<internal::kEmbedderDataSlotPayloadTag>(
+npm error       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+npm error   919 |             isolate, obj, offset);
+npm error       |             ~~~~~~~~~~~~~~~~~~~~~                                          
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-object.h:918:75: note: there is 1 candidate
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1257:28: note: candidate 1: ‘template<<typeprefixerror>tag_range> static v8::internal::Address v8::internal::Internals::ReadExternalPointerField(v8::Isolate*, v8::internal::Address, int)’
+npm error  1257 |   V8_INLINE static Address ReadExternalPointerField(v8::Isolate* isolate,
+npm error       |                            ^~~~~~~~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1257:28: note: template argument deduction/substitution failed:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-object.h:918:75: note: invalid template non-type parameter
+npm error   918 |         I::ReadExternalPointerField<internal::kEmbedderDataSlotPayloadTag>(
+npm error       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+npm error   919 |             isolate, obj, offset);
+npm error       |             ~~~~~~~~~~~~~~~~~~~~~                                          
+npm error In file included from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8.h:26:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-context.h: In member function ‘void* v8::Context::GetAlignedPointerFromEmbedderData(v8::Isolate*, int)’:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-context.h:473:73: error: no matching function for call to ‘v8::internal::Internals::ReadExternalPointerField<v8::internal::kEmbedderDataSlotPayloadTag>(v8::Isolate*&, A&, int&)’
+npm error   473 |       I::ReadExternalPointerField<internal::kEmbedderDataSlotPayloadTag>(
+npm error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+npm error   474 |           isolate, embedder_data, value_offset));
+npm error       |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                          
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-context.h:473:73: note: there is 1 candidate
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1257:28: note: candidate 1: ‘template<<typeprefixerror>tag_range> static v8::internal::Address v8::internal::Internals::ReadExternalPointerField(v8::Isolate*, v8::internal::Address, int)’
+npm error  1257 |   V8_INLINE static Address ReadExternalPointerField(v8::Isolate* isolate,
+npm error       |                            ^~~~~~~~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1257:28: note: template argument deduction/substitution failed:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-context.h:473:73: note: invalid template non-type parameter
+npm error   473 |       I::ReadExternalPointerField<internal::kEmbedderDataSlotPayloadTag>(
+npm error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+npm error   474 |           isolate, embedder_data, value_offset));
+npm error       |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                          
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-context.h: In member function ‘void* v8::Context::GetAlignedPointerFromEmbedderData(int)’:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-context.h:492:73: error: no matching function for call to ‘v8::internal::Internals::ReadExternalPointerField<v8::internal::kEmbedderDataSlotPayloadTag>(v8::Isolate*&, A&, int&)’
+npm error   492 |       I::ReadExternalPointerField<internal::kEmbedderDataSlotPayloadTag>(
+npm error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+npm error   493 |           isolate, embedder_data, value_offset));
+npm error       |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                          
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-context.h:492:73: note: there is 1 candidate
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1257:28: note: candidate 1: ‘template<<typeprefixerror>tag_range> static v8::internal::Address v8::internal::Internals::ReadExternalPointerField(v8::Isolate*, v8::internal::Address, int)’
+npm error  1257 |   V8_INLINE static Address ReadExternalPointerField(v8::Isolate* isolate,
+npm error       |                            ^~~~~~~~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-internal.h:1257:28: note: template argument deduction/substitution failed:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-context.h:492:73: note: invalid template non-type parameter
+npm error   492 |       I::ReadExternalPointerField<internal::kEmbedderDataSlotPayloadTag>(
+npm error       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+npm error   493 |           isolate, embedder_data, value_offset));
+npm error       |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                          
+npm error In file included from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-function.h:15,
+npm error                  from /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8.h:33:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-template.h: In member function ‘void v8::Template::Set(v8::Isolate*, const char*, v8::Local<v8::Data>, v8::PropertyAttribute)’:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-template.h:1110:6: error: no matching function for call to ‘v8::Template::Set(v8::Local<v8::String>, v8::Local<v8::Data>&, v8::PropertyAttribute&)’
+npm error  1110 |   Set(String::NewFromUtf8(isolate, name, NewStringType::kInternalized)
+npm error       |   ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+npm error  1111 |           .ToLocalChecked(),
+npm error       |           ~~~~~~~~~~~~~~~~~~
+npm error  1112 |       value, attributes);
+npm error       |       ~~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-template.h:1110:6: note: there are 2 candidates
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-template.h:57:8: note: candidate 1: ‘void v8::Template::Set(v8::Local<v8::Name>, v8::Local<v8::Data>, v8::PropertyAttribute)’
+npm error    57 |   void Set(Local<Name> name, Local<Data> value,
+npm error       |        ^~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-template.h:57:24: note: no known conversion for argument 1 from ‘Local<v8::String>’ to ‘Local<v8::Name>’
+npm error    57 |   void Set(Local<Name> name, Local<Data> value,
+npm error       |            ~~~~~~~~~~~~^~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-template.h:1108:6: note: candidate 2: ‘void v8::Template::Set(v8::Isolate*, const char*, v8::Local<v8::Data>, v8::PropertyAttribute)’
+npm error  1108 | void Template::Set(Isolate* isolate, const char* name, Local<Data> value,
+npm error       |      ^~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-template.h:1108:29: note: no known conversion for argument 1 from ‘v8::Local<v8::String>’ to ‘v8::Isolate*’
+npm error  1108 | void Template::Set(Isolate* isolate, const char* name, Local<Data> value,
+npm error       |                    ~~~~~~~~~^~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-weak-callback-info.h: In instantiation of ‘class v8::WeakCallbackInfo<node::ObjectWrap>’:
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-persistent-handle.h:484:16:   required by substitution of ‘template<class P> void v8::PersistentBase<v8::Object>::SetWeak(P*, typename v8::WeakCallbackInfo<T>::Callback, v8::WeakCallbackType) [with P = node::ObjectWrap]’
+npm error   484 | V8_INLINE void PersistentBase<T>::SetWeak(
+npm error       |                ^~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/node_object_wrap.h:85:25:   required from here
+npm error    85 |     persistent().SetWeak(this, WeakCallback, v8::WeakCallbackType::kParameter);
+npm error       |     ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/v8-weak-callback-info.h:25:7: error: invalid use of incomplete type ‘class cppgc::internal::ConditionalStackAllocatedBase<node::ObjectWrap>’
+npm error    25 | class WeakCallbackInfo
+npm error       |       ^~~~~~~~~~~~~~~~
+npm error /home/archxceed/.cache/node-gyp/24.14.1/include/node/cppgc/internal/conditional-stack-allocated.h:19:7: note: declaration of ‘class cppgc::internal::ConditionalStackAllocatedBase<node::ObjectWrap>’
+npm error    19 | class ConditionalStackAllocatedBase;
+npm error       |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+npm error make: *** [tree_sitter_runtime_binding.target.mk:126: Release/obj.target/tree_sitter_runtime_binding/src/binding.o] Error 1
+npm error gyp ERR! build error 
+npm error gyp ERR! stack Error: `make` failed with exit code: 2
+npm error gyp ERR! stack at ChildProcess.<anonymous> (/nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:219:23)
+npm error gyp ERR! System Linux 7.0.3
+npm error gyp ERR! command "/nix/store/2bslrww4ch7my47xxwabj1qy4acq4720-nodejs-slim-24.14.1/bin/node" "/nix/store/1d1cfwpg84gmfvjaf9nspdyj34cj5gg8-nodejs-slim-24.14.1-npm/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+npm error gyp ERR! cwd /home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang/node_modules/tree-sitter
+npm error gyp ERR! node -v v24.14.1
+npm error gyp ERR! node-gyp -v v12.2.0
+npm error gyp ERR! $npm_package_name tree-sitter
+npm error gyp ERR! $npm_package_version 0.25.0
+npm error gyp ERR! not ok
+npm verbose cwd /home/archxceed/Gits/MinLang/LanguageServer/grammar/tree-sitter-minlang
+npm verbose os Linux 7.0.3
+npm verbose node v24.14.1
+npm verbose npm  v11.11.0
+npm verbose exit 1
+npm verbose code 1
+npm error A complete log of this run can be found in: /home/archxceed/.npm/_logs/2026-06-22T11_18_18_521Z-debug-0.log

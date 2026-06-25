@@ -1,0 +1,11 @@
+id = "minlang-language-server"
+name = "MinLang Language Server"
+version = "1.0.0"
+schema_version = 1
+authors = ["Lyam Zambaz <lyam.zambaz@pm.me>"]
+description = "Language Server for https://4rchxceed.github.io/MinLang-docs"
+repository = "https://github.com/4rchXceed/MinLang"
+snippets = ["./snippets/minlang.json"]
+[grammars.minlang]
+repository = "file:///home/archxceed/Gits/MinLang/LanguageServer/minlang-grammar"
+rev='sample-rev'

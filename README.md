@@ -13,7 +13,7 @@ MinLang is (the compiler) for a programming language aimed to be compiled into M
 ### Cons
 - Kinda slow
 - Functions are always asynchronous
-- (very) Limited debugging capabilities
+- ~~(very) Limited~~ NO debugging capabilities
 - Limited standard library
 - No IDE support
 

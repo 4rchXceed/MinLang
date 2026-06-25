@@ -1,0 +1,963 @@
+[
+  {
+    "type": "arglist_global",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "argument_delim",
+          "named": true
+        },
+        {
+          "type": "globalvar_name",
+          "named": true
+        },
+        {
+          "type": "typedec",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "arglist_normal",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "argument_delim",
+          "named": true
+        },
+        {
+          "type": "localvar_name",
+          "named": true
+        },
+        {
+          "type": "typedec",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "end",
+          "named": true
+        },
+        {
+          "type": "statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "braces_close",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "call_arglist",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "argument_delim",
+          "named": true
+        },
+        {
+          "type": "val_free",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "comparator",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "for",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "argument_delim",
+          "named": true
+        },
+        {
+          "type": "bracket_close",
+          "named": true
+        },
+        {
+          "type": "bracket_open",
+          "named": true
+        },
+        {
+          "type": "for_keyword",
+          "named": true
+        },
+        {
+          "type": "function_call",
+          "named": true
+        },
+        {
+          "type": "int",
+          "named": true
+        },
+        {
+          "type": "localvar_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "function_call",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "bracket_close",
+          "named": true
+        },
+        {
+          "type": "bracket_open",
+          "named": true
+        },
+        {
+          "type": "call_arglist",
+          "named": true
+        },
+        {
+          "type": "function_name",
+          "named": true
+        },
+        {
+          "type": "gt",
+          "named": true
+        },
+        {
+          "type": "lt",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "function_definition_ascode",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "ascode_keyword",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "fun_keyword",
+          "named": true
+        },
+        {
+          "type": "parameter_list_global",
+          "named": true
+        },
+        {
+          "type": "start",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "function_definition_normal",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "fun_keyword",
+          "named": true
+        },
+        {
+          "type": "loop_keyword",
+          "named": true
+        },
+        {
+          "type": "parameter_list_normal",
+          "named": true
+        },
+        {
+          "type": "start",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "function_name",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "global_var",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "globalvar_name",
+          "named": true
+        },
+        {
+          "type": "self_keyword",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "global_var_definition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "const_keyword",
+          "named": true
+        },
+        {
+          "type": "globalvar_name_decl",
+          "named": true
+        },
+        {
+          "type": "typedec",
+          "named": true
+        },
+        {
+          "type": "val",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "globalvar_name",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "gt",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "if",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "bracket_close",
+          "named": true
+        },
+        {
+          "type": "bracket_open",
+          "named": true
+        },
+        {
+          "type": "comparator",
+          "named": true
+        },
+        {
+          "type": "function_call",
+          "named": true
+        },
+        {
+          "type": "global_var",
+          "named": true
+        },
+        {
+          "type": "if_keyword",
+          "named": true
+        },
+        {
+          "type": "local_var",
+          "named": true
+        },
+        {
+          "type": "val",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "import_statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "import_keyword",
+          "named": true
+        },
+        {
+          "type": "import_path",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "int_type",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "line_code",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "for",
+          "named": true
+        },
+        {
+          "type": "function_call",
+          "named": true
+        },
+        {
+          "type": "if",
+          "named": true
+        },
+        {
+          "type": "var_create",
+          "named": true
+        },
+        {
+          "type": "var_set",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "local_var",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "braces_close",
+          "named": true
+        },
+        {
+          "type": "braces_open",
+          "named": true
+        },
+        {
+          "type": "global_var",
+          "named": true
+        },
+        {
+          "type": "localvar_name",
+          "named": true
+        },
+        {
+          "type": "special_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "localvar_name",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "lt",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "operator",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "parameter_list_global",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "arglist_global",
+          "named": true
+        },
+        {
+          "type": "bracket_close",
+          "named": true
+        },
+        {
+          "type": "bracket_open",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "parameter_list_normal",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "arglist_normal",
+          "named": true
+        },
+        {
+          "type": "bracket_close",
+          "named": true
+        },
+        {
+          "type": "bracket_open",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "function_definition_ascode",
+          "named": true
+        },
+        {
+          "type": "function_definition_normal",
+          "named": true
+        },
+        {
+          "type": "global_var_definition",
+          "named": true
+        },
+        {
+          "type": "import_statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "special_string",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "concat_str_keyword",
+          "named": true
+        },
+        {
+          "type": "global_var",
+          "named": true
+        },
+        {
+          "type": "special_string_close",
+          "named": true
+        },
+        {
+          "type": "special_string_open",
+          "named": true
+        },
+        {
+          "type": "string_inside",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "special_string_close",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "line_code",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "typedec",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "val",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "bool",
+          "named": true
+        },
+        {
+          "type": "float",
+          "named": true
+        },
+        {
+          "type": "int",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "void",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "val_free",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "function_call",
+          "named": true
+        },
+        {
+          "type": "function_ptr_keyword_close",
+          "named": true
+        },
+        {
+          "type": "function_ptr_keyword_open",
+          "named": true
+        },
+        {
+          "type": "global_var",
+          "named": true
+        },
+        {
+          "type": "local_var",
+          "named": true
+        },
+        {
+          "type": "special_string",
+          "named": true
+        },
+        {
+          "type": "val",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "var_create",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "braces_close",
+          "named": true
+        },
+        {
+          "type": "braces_open",
+          "named": true
+        },
+        {
+          "type": "global_var",
+          "named": true
+        },
+        {
+          "type": "int",
+          "named": true
+        },
+        {
+          "type": "int_type",
+          "named": true
+        },
+        {
+          "type": "localvar_name",
+          "named": true
+        },
+        {
+          "type": "special_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "var_set",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "braces_close",
+          "named": true
+        },
+        {
+          "type": "braces_open",
+          "named": true
+        },
+        {
+          "type": "bracket_close",
+          "named": true
+        },
+        {
+          "type": "bracket_open",
+          "named": true
+        },
+        {
+          "type": "global_var",
+          "named": true
+        },
+        {
+          "type": "gt",
+          "named": true
+        },
+        {
+          "type": "int",
+          "named": true
+        },
+        {
+          "type": "localvar_name",
+          "named": true
+        },
+        {
+          "type": "lt",
+          "named": true
+        },
+        {
+          "type": "operator",
+          "named": true
+        },
+        {
+          "type": "special_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "\n",
+    "named": false
+  },
+  {
+    "type": "!<",
+    "named": false
+  },
+  {
+    "type": "!<=",
+    "named": false
+  },
+  {
+    "type": "!=",
+    "named": false
+  },
+  {
+    "type": "!>",
+    "named": false
+  },
+  {
+    "type": "!>=",
+    "named": false
+  },
+  {
+    "type": "\"",
+    "named": false
+  },
+  {
+    "type": "#::",
+    "named": false
+  },
+  {
+    "type": "$::",
+    "named": false
+  },
+  {
+    "type": "->",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": "::",
+    "named": false
+  },
+  {
+    "type": "<",
+    "named": false
+  },
+  {
+    "type": "<=",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": ">",
+    "named": false
+  },
+  {
+    "type": ">=",
+    "named": false
+  },
+  {
+    "type": "Add",
+    "named": false
+  },
+  {
+    "type": "Bool",
+    "named": false
+  },
+  {
+    "type": "Float",
+    "named": false
+  },
+  {
+    "type": "Int",
+    "named": false
+  },
+  {
+    "type": "Set",
+    "named": false
+  },
+  {
+    "type": "String",
+    "named": false
+  },
+  {
+    "type": "Sub",
+    "named": false
+  },
+  {
+    "type": "Void",
+    "named": false
+  },
+  {
+    "type": "argument_delim",
+    "named": true
+  },
+  {
+    "type": "ascode_keyword",
+    "named": true
+  },
+  {
+    "type": "bool",
+    "named": true
+  },
+  {
+    "type": "braces_open",
+    "named": true
+  },
+  {
+    "type": "bracket_close",
+    "named": true
+  },
+  {
+    "type": "bracket_open",
+    "named": true
+  },
+  {
+    "type": "comment",
+    "named": true
+  },
+  {
+    "type": "concat_str_keyword",
+    "named": true
+  },
+  {
+    "type": "const_keyword",
+    "named": true
+  },
+  {
+    "type": "end",
+    "named": true
+  },
+  {
+    "type": "float",
+    "named": true
+  },
+  {
+    "type": "for_keyword",
+    "named": true
+  },
+  {
+    "type": "fun_keyword",
+    "named": true
+  },
+  {
+    "type": "function_ptr_keyword_close",
+    "named": true
+  },
+  {
+    "type": "function_ptr_keyword_open",
+    "named": true
+  },
+  {
+    "type": "globalvar_name_decl",
+    "named": true
+  },
+  {
+    "type": "if_keyword",
+    "named": true
+  },
+  {
+    "type": "import_keyword",
+    "named": true
+  },
+  {
+    "type": "import_path",
+    "named": true
+  },
+  {
+    "type": "int",
+    "named": true
+  },
+  {
+    "type": "loop_keyword",
+    "named": true
+  },
+  {
+    "type": "self_keyword",
+    "named": true
+  },
+  {
+    "type": "special_string_open",
+    "named": true
+  },
+  {
+    "type": "start",
+    "named": true
+  },
+  {
+    "type": "string",
+    "named": true
+  },
+  {
+    "type": "string_inside",
+    "named": true
+  },
+  {
+    "type": "void",
+    "named": true
+  },
+  {
+    "type": "}",
+    "named": false
+  }
+]

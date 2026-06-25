@@ -1,0 +1,97 @@
+{
+  "AsCode function": {
+    "prefix": "ascode",
+    "body": ["ascode fun ${1:Name}(${2:Conditions;}):", "$0", "${1:Name}"],
+    "description": "Creates a function's structure with the ascode flag (see https://4rchxceed.github.io/MinLang-docs/SeriaLang/Language/Functions/)"
+  },
+  "Loop function": {
+    "prefix": "loop",
+    "body": ["loop fun ${1:Name}(${2:Conditions;}):", "$0", "${1:Name}"],
+    "description": "Creates a function's structure with the loop flag (see <oups, forgot to documentate this. TODO)"
+  },
+  "Function": {
+    "prefix": "fun",
+    "body": ["fun ${1:Name}(${2:Conditions;}):", "$0", "${1:Name}"],
+    "description": "Creates a function's structure (see https://4rchxceed.github.io/MinLang-docs/SeriaLang/Language/Functions/)"
+  },
+  "Global variable": {
+    "prefix": "const",
+    "body": ["const ${1:Int} \\$${2:Name} = ${3:Val}", "$0"],
+    "description": "Creates a global / constant variable (see https://4rchxceed.github.io/MinLang-docs/SeriaLang/Language/Variables/)"
+  },
+  "Global variable call": {
+    "prefix": "$",
+    "body": ["\\$::${1:Name}$0"],
+    "description": "Call a global variable (see https://4rchxceed.github.io/MinLang-docs/SeriaLang/Language/Variables/)"
+  },
+  "Local variable call": {
+    "prefix": "#",
+    "body": ["#::${1:Name}$0"],
+    "description": "Call a local variable (see https://4rchxceed.github.io/MinLang-docs/SeriaLang/Language/Variables/)"
+  },
+  "Local variable": {
+    "prefix": "Int",
+    "body": ["Int ${1:name} = ${2:39}", "$0"],
+    "description": "Creates a local variable of type Int (see https://4rchxceed.github.io/MinLang-docs/SeriaLang/Language/Variables/)"
+  },
+  "Add to local variable": {
+    "prefix": "Add",
+    "body": ["#::${1:name}::Add()<${2:39}>", "$0"],
+    "description": "Adds X to a local variable (see https://4rchxceed.github.io/MinLang-docs/SeriaLang/Language/Variables/)"
+  },
+  "Set to local variable": {
+    "prefix": "Set",
+    "body": ["#::${1:name}::Set()<${2:39}>", "$0"],
+    "description": "Sets a local variable to X (see https://4rchxceed.github.io/MinLang-docs/SeriaLang/Language/Variables/)"
+  },
+  "Substract to local variable": {
+    "prefix": "Sub",
+    "body": ["#::${1:name}::Sub()<${2:39}>", "$0"],
+    "description": "Substracts X to a local variable (see https://4rchxceed.github.io/MinLang-docs/SeriaLang/Language/Variables/)"
+  },
+  "Function ptr": {
+    "prefix": "<%",
+    "body": ["<%${1:Name}()<$0>%>"],
+    "description": "Function 'ptr' / 'lambda' (Function call as value) (see https://4rchxceed.github.io/MinLang-docs/SeriaLang/Language/Variables/)"
+  },
+  "If": {
+    "prefix": "if",
+    "body": ["If (#::${1:name} ${2:=} ${3:39}): ${4:Name}()<$0>"],
+    "description": "If statement (see https://4rchxceed.github.io/MinLang-docs/SeriaLang/Language/IfAndFor/)"
+  },
+  "For": {
+    "prefix": "for",
+    "body": ["For (${1:0}; ${2:39}; ${3:1}) -> i: ${4:Name}()<$0>"],
+    "description": "For statement (see https://4rchxceed.github.io/MinLang-docs/SeriaLang/Language/IfAndFor/)"
+  },
+  "Import": {
+    "prefix": "%import",
+    "body": ["%import ${1:libmc/print.uchc}", "$0"],
+    "description": "Import statement (see https://4rchxceed.github.io/MinLang-docs/SeriaLang/Language/Import/)"
+  },
+  "Int": {
+    "prefix": "Int",
+    "body": ["Int$0"],
+    "description": "Int Type"
+  },
+  "Float": {
+    "prefix": "Float",
+    "body": ["Float$0"],
+    "description": "Float Type"
+  },
+  "String": {
+    "prefix": "String",
+    "body": ["String$0"],
+    "description": "String Type"
+  },
+  "Bool": {
+    "prefix": "Bool",
+    "body": ["Bool$0"],
+    "description": "Bool Type"
+  },
+  "Void": {
+    "prefix": "Void",
+    "body": ["Void$0"],
+    "description": "Void Type"
+  }
+}

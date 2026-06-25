@@ -1,0 +1,3 @@
+grammars/*
+# Provide the "release", simpler for the user to install
+!grammars/minlang.wasm

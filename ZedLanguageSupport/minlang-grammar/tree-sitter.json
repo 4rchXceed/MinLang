@@ -1,0 +1,40 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "minlang",
+      "camelcase": "MinLang",
+      "title": "MinLang",
+      "scope": "source.minlang",
+      "file-types": ["ucl"],
+      "injection-regex": "^minlang$",
+      "class-name": "TreeSitterMinlang"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "Language Server for https://4rchxceed.github.io/MinLang-docs",
+    "authors": [
+      {
+        "name": "Lyam Zambaz",
+        "email": "lyam.zambaz@pm.me",
+        "url": "https://webdash.dev"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/4rchXceed/MinLang.git",
+      "funding": ""
+    }
+  },
+  "bindings": {
+    "c": false,
+    "go": false,
+    "java": false,
+    "node": true,
+    "python": false,
+    "rust": true,
+    "swift": false,
+    "zig": false
+  }
+}

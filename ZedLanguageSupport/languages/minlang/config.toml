@@ -1,0 +1,4 @@
+name = "MinLang"
+grammar = "minlang"
+path_suffixes = ["ucl"]
+line_comments = ["// "]
